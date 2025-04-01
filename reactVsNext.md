@@ -1,4 +1,4 @@
-# Why Move from React to Next.js?
+# Why Move from [React](https://react.dev/) to [Next.js](https://nextjs.org/)?
 
 React is a powerful UI library for building dynamic client-side applications. However, it has some drawbacks:
 
@@ -8,7 +8,7 @@ React is a powerful UI library for building dynamic client-side applications. Ho
 
 ❌ **Slower Initial Load**: Users wait for JavaScript to download, parse, and render.
 
-❌ **No Built-in Routing**: Requires libraries like `react-router-dom`.
+❌ **No Built-in Routing**: Requires libraries like [`react-router-dom`](https://reactrouter.com/).
 
 ❌ **No Server-Side Rendering (SSR) by Default**: Harder to optimize for performance & SEO.
 
@@ -50,6 +50,6 @@ React is a powerful UI library for building dynamic client-side applications. Ho
 ✔ **You want automatic optimizations** (image, font, script optimizations).
 
 
-##Points from course
-✔ Next.js uses params.id to dynamically fetch data server-side before rendering the page, ensuring content is available as soon as the user loads the page.
+## Points from course
+✔ Next.js uses `params.id` to dynamically fetch data server-side before rendering the page, ensuring content is available as soon as the user loads the page.
 
